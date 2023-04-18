@@ -618,7 +618,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
             
         if loadFaceC_YN:
         
-            if loadFaceB == 0:
+            if loadFaceC == 0:
                 print('= = = E R R O R = = => Load value on face C is zero. Define a non-zero value.\n')
                 return
                 
@@ -686,7 +686,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
             
         if loadFaceD_YN:
         
-            if loadFaceB == 0:
+            if loadFaceD == 0:
                 print('= = = E R R O R = = => Load value on face D is zero. Define a non-zero value.\n')
                 return
                 
