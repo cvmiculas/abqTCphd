@@ -9,9 +9,6 @@ The research leading to this plug-in was made possible by funding from the Portu
 Thank you for using this plug-in. We hope it will be helpful for your research. Also, feel free to submit changes and remember to cite the work.
 
 References:
+- Miculaş, C.V., Costa, R.J., Simões da Silva, L., Simões, R., Craveiro, H., Tankova, T. (2023). Macro-modelling of the Three-Dimensional Interaction Between the Faces of a Steel Tubular Column Joint. In: Di Trapani, F., Demartino, C., Marano, G.C., Monti, G. (eds) Proceedings of the 2022 Eurasian OpenSees Days. EOS 2022. Lecture Notes in Civil Engineering, vol 326. Springer, Cham. https://doi.org/10.1007/978-3-031-30125-4_37
 
-Ph.D. theis: 
 
-journal paper:
-
-conference paper:
