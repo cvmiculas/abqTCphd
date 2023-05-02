@@ -1,7 +1,7 @@
 # abqTCphd: an Abaqus RSG plug-in for effortless creation of tubular columns with socket faces
 
 ## Intro
-Welcome to the abqTCphd plug-in repository! This plug-in was designed to facilitate the analysis and behavior study of a tubular column with rounded corners and socket faces in the beam-to-column joint region. Specifically, to evaluate the innovative plug-and-play beam-to-column joint's system developed within the INNO3DJOINTS project, supported by the Research Fund for Coal and Steel under grant agreement No. 749959: "Innovative 3D joints for robust and economical hybrid tubular construction". 
+Welcome to the abqTCphd plug-in repository! This plug-in was designed to facilitate the creation of FEM models of a tubular column with rounded corners and socket faces. These models were used to study the behavior of the innovative plug-and-play joint's system developed within the INNO3DJOINTS project, supported by the Research Fund for Coal and Steel under grant agreement No. 749959: "Innovative 3D joints for robust and economical hybrid tubular construction".
 
 The plug-in was created as part of the Ph.D. thesis titled "INNOVATIVE PLUG-AND-PLAY JOINTS FOR HYBRID TUBULAR CONSTRUCTIONS, authored by Cristian V. Miculaș (cristian.miculas@uc.pt) and supervised by Ricardo Joel Teixeira Costa (rjcosta@dec.uc.pt) and Luís Alberto Proença Simões da Silva (luisss@dec.uc.pt). The work was developed at the Institute for Sustainability and Innovation in Structural Engineering (www.isise.net), Coimbra Branch, within the University of Coimbra, Portugal (www.uc.pt).
 
