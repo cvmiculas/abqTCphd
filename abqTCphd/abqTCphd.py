@@ -528,7 +528,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                     ## assembly
                     ## add, translate, assing regions, create constraint
                 assembly.Instance(name=nameSF1, part=partSF1, dependent=ON)
-                assembly.translate(instanceList=(nameSF1, ), vector=(0.0, 0.0, 1440.0))
+                assembly.translate(instanceList=(nameSF1, ), vector=(0.0, 0.0, L/2-hS/2))
                 region1=assembly.instances[nameCol].surfaces['Surf-1']
                 region2=assembly.instances[nameSF1].surfaces['Surf-1']
                 mdb.models[nameModel].Tie(name='Constraint-1', master=region2, slave=region1, 
@@ -596,7 +596,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                     ## assembly
                     ## add, translate, assing regions, create constraint
                 assembly.Instance(name=nameSF2, part=partSF2, dependent=ON)
-                assembly.translate(instanceList=(nameSF2, ), vector=(0.0, 0.0, 1440.0))
+                assembly.translate(instanceList=(nameSF2, ), vector=(0.0, 0.0, L/2-hS/2))
                 region1=assembly.instances[nameCol].surfaces['Surf-2']
                 region2=assembly.instances[nameSF2].surfaces['Surf-2']
                 mdb.models[nameModel].Tie(name='Constraint-2', master=region2, slave=region1, 
@@ -664,7 +664,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                     ## assembly
                     ## add, translate, assing regions, create constraint
                 assembly.Instance(name=nameSF3, part=partSF3, dependent=ON)
-                assembly.translate(instanceList=(nameSF3, ), vector=(0.0, 0.0, 1440.0))
+                assembly.translate(instanceList=(nameSF3, ), vector=(0.0, 0.0, L/2-hS/2))
                 region1=assembly.instances[nameCol].surfaces['Surf-3']
                 region2=assembly.instances[nameSF3].surfaces['Surf-3']
                 mdb.models[nameModel].Tie(name='Constraint-3', master=region2, slave=region1, 
@@ -733,7 +733,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                     ## assembly
                     ## add, translate, assing regions, create constraint
                 assembly.Instance(name=nameSF4, part=partSF4, dependent=ON)
-                assembly.translate(instanceList=(nameSF4, ), vector=(0.0, 0.0, 1440.0))
+                assembly.translate(instanceList=(nameSF4, ), vector=(0.0, 0.0, L/2-hS/2))
                 region1=assembly.instances[nameCol].surfaces['Surf-4']
                 region2=assembly.instances[nameSF4].surfaces['Surf-4']
                 mdb.models[nameModel].Tie(name='Constraint-4', master=region2, slave=region1, 
