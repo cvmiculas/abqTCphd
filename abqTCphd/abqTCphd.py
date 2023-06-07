@@ -400,7 +400,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
         elif (coord_Z_vert1[0][2] > coord_Z_vert2[0][2]):
             edges_dir_2.append(ii)
             
-    partC.seedEdgeByBias(biasMethod=SINGLE, end1Edges=edges_dir_2 , end2Edges=edges_dir_1, minSize=5.0, maxSize=50.0, constraint=FINER)
+    partC.seedEdgeByBias(biasMethod=SINGLE, end1Edges=edges_dir_2 , end2Edges=edges_dir_1, minSize=meshSizeBiasMin, maxSize=meshSizeBiasMax, constraint=FINER)
 
             ## Length using single-biasing direction - L1
     pickedEdges2 = partC.sets[setName_L1].edges
@@ -522,7 +522,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                 partSF1.Surface(side1Faces=list_1, side2Faces=list_2, name='Surf-1')
                     
                     ## mesh part
-                partSF1.seedPart(size=5.0, deviationFactor=0.1, minSizeFactor=0.1)
+                partSF1.seedPart(size=meshSizeGlobal, deviationFactor=0.1, minSizeFactor=0.1)
                 partSF1.generateMesh()
                 
                     ## assembly
@@ -590,7 +590,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                 partSF2.Surface(side1Faces=list_2, side2Faces=list_1, name='Surf-2')
                     
                     ## mesh part
-                partSF2.seedPart(size=5.0, deviationFactor=0.1, minSizeFactor=0.1)
+                partSF2.seedPart(size=meshSizeGlobal, deviationFactor=0.1, minSizeFactor=0.1)
                 partSF2.generateMesh()
                 
                     ## assembly
@@ -658,7 +658,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                 partSF3.Surface(side1Faces=list_2, side2Faces=list_1, name='Surf-3')
                     
                     ## mesh part
-                partSF3.seedPart(size=5.0, deviationFactor=0.1, minSizeFactor=0.1)
+                partSF3.seedPart(size=meshSizeGlobal, deviationFactor=0.1, minSizeFactor=0.1)
                 partSF3.generateMesh()
                 
                     ## assembly
@@ -727,7 +727,7 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
                 partSF4.Surface(side1Faces=list_1, side2Faces=list_2, name='Surf-4')
                     
                     ## mesh part
-                partSF4.seedPart(size=5.0, deviationFactor=0.1, minSizeFactor=0.1)
+                partSF4.seedPart(size=meshSizeGlobal, deviationFactor=0.1, minSizeFactor=0.1)
                 partSF4.generateMesh()
                 
                     ## assembly
