@@ -14,6 +14,10 @@ Cite the abqTCphd plug-in using:
 
 [![DOI](https://zenodo.org/badge/614094828.svg)](https://zenodo.org/badge/latestdoi/614094828)
 
+## Video Tutorials (Youtube)
+- 1 download & installation: https://youtu.be/LkeMnk1fEeo
+- 2 model generation: https://youtu.be/XaNEqAroR1c
+
 ## License
 [MIT License](LICENSE)
 
