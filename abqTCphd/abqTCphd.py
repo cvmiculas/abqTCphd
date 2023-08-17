@@ -759,7 +759,12 @@ def create_abqTCphd(nameModel, nameCol, nameSF, bC, hC, L, tC, radE, hS, tS, dS,
     # # * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
     ## geoetric nonlinearity
     if nlGeom:
-        mdb.models[nameModel].steps[nameStepRiks].setValues(nlgeom=ON)
+		print(nlGeom)
+		print(type(nlGeom))
+		if nlGeom == 'On':
+			mdb.models[nameModel].steps[nameStepRiks].setValues(nlgeom=ON)
+		elif nlGeom == 'Off':
+			mdb.models[nameModel].steps[nameStepRiks].setValues(nlgeom=OFF)
     else:
         mdb.models[nameModel].steps[nameStepRiks].setValues(nlgeom=OFF)
         
