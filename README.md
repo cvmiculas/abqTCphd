@@ -15,11 +15,15 @@ Cite the abqTCphd plug-in using:
 [![DOI](https://zenodo.org/badge/614094828.svg)](https://zenodo.org/badge/latestdoi/614094828)
 
 ## Video Tutorials (Youtube)
-- 1 download & installation: https://youtu.be/LkeMnk1fEeo
-- 2 model generation: https://youtu.be/XaNEqAroR1c
+- "abqTCphd: an Abaqus Plug-in to "Create Tubular Columns with Socket Faces" #1 download & installation": https://youtu.be/LkeMnk1fEeo
+- "abqTCphd: an Abaqus Plug-in to "Create Tubular Columns with Socket Faces" #2 model generation": https://youtu.be/XaNEqAroR1c
 
 ## License
 [MIT License](LICENSE)
 
 ## References related to this plug-in:
-- Miculaş, C.V., Costa, R.J., Simões da Silva, L., Simões, R., Craveiro, H., Tankova, T. (2023). Macro-modelling of the Three-Dimensional Interaction Between the Faces of a Steel Tubular Column Joint. In: Di Trapani, F., Demartino, C., Marano, G.C., Monti, G. (eds) Proceedings of the 2022 Eurasian OpenSees Days. EOS 2022. Lecture Notes in Civil Engineering, vol 326. Springer, Cham. https://doi.org/10.1007/978-3-031-30125-4_37
+- C.V. Miculaş, Innovative plug and play joints for hybrid tubular constructions (Ph.D. thesis), University of Coimbra, Portugal, 2023, https://estudogeral.uc.pt/handle/10316/110990
+
+- C.V. Miculaş, R. J. Costa, L. S. da Silva, R. Simões, H. Craveiro, T. Tankova, 3D macro-element for innovative plug-and-play joints, J. Constructional Steel Research 214 (2024), https://doi.org/10.1016/j.jcsr.2023.108436
+
+- C.V. Miculaş, R.J. Costa, L. Simões da Silva, R. Simões, H. Craveiro, T. Tankova, Macro-modelling of the three-dimensional interaction between the faces of a steel tubular column joint, in: F. Di Trapani, C. Demartino, G.C. Marano, G. Monti (Eds.), Proceedings of the 2022 Eurasian OpenSees Days, Springer Nature Switzerland, Cham, 2023, pp. 408–422, http://dx.doi.org/10.1007/978-3-031-30125-4_37
